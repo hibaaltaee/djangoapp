@@ -22,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-#SECRET_KEY ='django-insecure-927$05q!umlty3qce8sowu4r@@iwg2d8nl2y8_pg$2*i5^ro*'
 
 import environ
 import os
@@ -38,7 +37,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS=['https://https://djangoapp-production-755d.up.railway.app']
+CSRF_TRUSTED_ORIGINS=['https://djangoapp-production-755d.up.railway.app']
 
 
 # Application definition
