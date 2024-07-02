@@ -79,6 +79,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Replace with your frontend URL
     "http://127.0.0.1:3000",
+    'https://frabjous-bonbon-e09fe2.netlify.app/',
 ]    
 
 ROOT_URLCONF = 'myproject.urls'
